@@ -17,22 +17,34 @@ Styling: Tailwind CSS, Custom HTML&CSS (Modern UI design system)
 
 
 ## ✨ Features
+
 🛍️ Product listing and details pages
+
 🛒 Shopping cart functionality
+
 💳 Secure checkout with Stripe
+
 🔐 Payment integration (sandbox + production ready)
+
 📱 Fully responsive design
+
 ⚡ Fast and optimized performance with Next.js
+
 🎨 Clean and modern UI using Tailwind CSS
+
 🔐 Login / Register
+
 🎟️ JWT Authentication
+
 👥 Roles (User / Admin)
+
 🛡️ Protected Routes
 
 
 ## 🧪 Test Accounts
 
 email: user4@test.com
+
 password: 1234
 
 
@@ -59,6 +71,7 @@ Secure card validation
 1. Clone the repository
 
 git clone https://github.com/your-username/polene-ecommerce.git
+
 cd polene-ecommerce
 
 
@@ -72,6 +85,7 @@ npm install
 ** Create a .env file:
 
 STRIPE_SECRET_KEY=your_stripe_secret_key
+
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_public_key
 
 
