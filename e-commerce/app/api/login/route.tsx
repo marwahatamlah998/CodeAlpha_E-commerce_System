@@ -1,4 +1,4 @@
-import { Login } from "@/app/models/lib/services/users";
+import { Login } from "@/app/models/db/services/users";
 import { NextResponse } from "next/server";
 
 export const POST = async (request: Request) => {
