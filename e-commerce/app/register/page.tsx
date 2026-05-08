@@ -12,7 +12,7 @@ const Register = () => {
   const [form, setForm] = useState({
     firstName: "",
     lastName: "",
-    age:0,
+    age: 0,
     country: "",
     phoneNo: "",
     email: "",
@@ -45,9 +45,9 @@ const Register = () => {
         }, 3000);
         localStorage.setItem("token", response.data.token);
         const token_decoded = JSON.parse(
-          atob(response.data.token.split(".")[1])
+          atob(response.data.token.split(".")[1]),
         );
-        console.log(token_decoded);
+        sessionStorage.clear();
         localStorage.setItem("userId", token_decoded.userId);
         localStorage.setItem("roleId", token_decoded.role);
         setToken(response.data.token);
@@ -66,8 +66,7 @@ const Register = () => {
   };
 
   useEffect(() => {
-    if (session) 
-      router.push("/home");
+    if (session) router.push("/home");
   }, [session, router]);
 
   return (
