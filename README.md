@@ -1,7 +1,7 @@
 # CodeAlpha_E-commerce_System
 CodeAlpha e-commerce system (FE, BE)
 
-🧩 Description
+## 🧩 Description
 
 POLÉNE E-commerce is a modern full-stack e-commerce system built to simulate a real-world online store experience. It includes product browsing, cart management, secure checkout, and payment processing.
 
@@ -9,14 +9,14 @@ The system is designed with scalability, performance, and user experience in min
 
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Frontend: Next.js (React framework)
 Backend: Express.js (Node.js server)
 Payments: Stripe API (Test & Live mode support)
 Styling: Tailwind CSS, Custom HTML&CSS (Modern UI design system)
 
 
-✨ Features
+## ✨ Features
 🛍️ Product listing and details pages
 🛒 Shopping cart functionality
 💳 Secure checkout with Stripe
@@ -30,13 +30,13 @@ Styling: Tailwind CSS, Custom HTML&CSS (Modern UI design system)
 🛡️ Protected Routes
 
 
-🧪 Test Accounts
+## 🧪 Test Accounts
 
 email: user4@test.com
 password: 1234
 
 
-💳 Payment Integration
+## 💳 Payment Integration
 
 This project uses Stripe for secure payment processing.
 
@@ -52,9 +52,9 @@ Payment intents
 Checkout sessions
 Secure card validation
 
-Non-payments test options doc : [Document](https://docs.stripe.com/testing)
+# Non-payments test options doc : [Document](https://docs.stripe.com/testing)
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 1. Clone the repository
 
@@ -82,7 +82,7 @@ npm run dev
 
 
 
-🎯 Goals
+## 🎯 Goals
  - Build a real-world e-commerce system
  - Practice full-stack development skills
  - Integrate secure payment systems
@@ -90,7 +90,7 @@ npm run dev
 
 
 
-⚠️ Notes
+## ⚠️ Notes
 - Sandbox mode is used for development (no real payments)
 - Always switch to live keys before production
 - Stripe handles all sensitive payment data securely
