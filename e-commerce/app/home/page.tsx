@@ -97,8 +97,6 @@ const Home = () => {
 
   const handleLogout = async () => {
     setToken(null);
-    localStorage.clear();
-
     sessionStorage.clear();
 
     await signOut({ redirect: true, callbackUrl: "/login" }); // Redirects to login page after logout
