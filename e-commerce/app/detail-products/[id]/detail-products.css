@@ -1,0 +1,35 @@
+.container_detail {
+  background-color: #e3e3e1;
+  height: 100%;
+}
+
+.nameOfProduct {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.DetailProduct {
+  position: relative;
+  right: 30px;
+}
+
+.buy_cta {
+  font-size: 16px;
+  border-width: 2px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 180px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.buy_cta:hover {
+  background-color: #f0e96f;
+  color: white;
+}
+
+.cart,
+.buy_now {
+  cursor: pointer;
+}
