@@ -132,7 +132,7 @@ const [paymentMethod, setPaymentMethod] = useState<'CARD' | 'WALLET' | 'COD'>('C
             <h2 className="text-2xl font-semibold mb-6">Payment Details</h2>
             <div className="Mpayment flex gap-5 w-[400px] h-[80px] ">
               <button
-                onClick={() => setPaymentMethod("card")}
+                onClick={() => setPaymentMethod("CARD")}
                 className="px-5 py-2.5  text-black font-medium border border-gray-300 rounded-xl
                      active:scale-95 transition duration-200 
                        focus:outline-none focus:ring-2 focus:ring-black-400"
@@ -141,7 +141,7 @@ const [paymentMethod, setPaymentMethod] = useState<'CARD' | 'WALLET' | 'COD'>('C
               </button>
 
               <button
-                onClick={() => setPaymentMethod("wallet")}
+                onClick={() => setPaymentMethod("WALLET")}
                 className="px-5 py-2.5  text-black font-medium border border-gray-300 rounded-xl
                    active:scale-95 transition duration-200 
                    focus:outline-none focus:ring-2 focus:ring-black-400"
@@ -150,7 +150,7 @@ const [paymentMethod, setPaymentMethod] = useState<'CARD' | 'WALLET' | 'COD'>('C
               </button>
 
               <button
-                onClick={() => setPaymentMethod("cod")}
+                onClick={() => setPaymentMethod("COD")}
                 className="px-5 py-2.5  text-black font-medium border border-gray-300 rounded-xl
                    active:scale-95 transition duration-200 
                    focus:outline-none focus:ring-2 focus:ring-black-400"
