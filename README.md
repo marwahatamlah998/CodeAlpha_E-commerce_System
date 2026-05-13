@@ -113,3 +113,12 @@ npm run dev
 ## Command if next is deleted in your project
 
 npm install next@latest react@latest react-dom@latest
+
+
+##  DEMO
+
+https://drive.google.com/file/d/1TKsbnk0uuK-wOL_7ePTCgavkVK_NGaS7/view?usp=sharing
+
+
+
+
